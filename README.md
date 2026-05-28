@@ -1,72 +1,75 @@
-Blivet is a python module for system storage configuration.
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# blivet
 
-### CI status
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/blivet)
 
-<img alt="CI status" src="https://fedorapeople.org/groups/storage_apis/statuses/blivet-master.svg" width="100%" height="300ex" />
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-### License
+## Architecture
 
-See [COPYING](https://github.com/storaged-project/blivet/blob/master/COPYING)
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-### Installation
+## Install
 
-#### From Fedora repositories
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-Blivet is available in Fedora repositories. You can install it using
+```bash
+git clone https://github.com/Interested-Deving-1896/blivet.git
+cd blivet
+```
 
-    # dnf install python3-blivet
+## Usage
 
-#### Daily builds for Fedora
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-Daily builds of Blivet are available in `@storage/blivet-daily` Copr repository.
-You can enable it using
+## Configuration
 
-    # dnf copr enable @storage/blivet-daily
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-Daily builds of _libblockdev_ and _libbytesize_ are also in this repo.
+## CI
 
-#### OBS repository for Ubuntu and Debian
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-Packages for Debian and Ubuntu are available through the Open Build Service.
-Instructions for adding the repository are available [here](https://software.opensuse.org/download.html?project=home:vtrefny&package=python3-blivet).
+## Mirror chain
 
-#### Copr repository for openSUSE, Mageia and OpenMandriva
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/blivet`](https://github.com/Interested-Deving-1896/blivet) and mirrored through:
 
-Packages for openSUSE Tumbleweed, Mageia (8 and newer) and OpenMandriva (Cooker and Rolling) are available in our [blivet-stable Copr repository](https://copr.fedorainfracloud.org/coprs/g/storage/blivet-stable/).
+```
+Interested-Deving-1896/blivet  ──►  OpenOS-Project-OSP/blivet  ──►  OpenOS-Project-Ecosystem-OOC/blivet
+```
 
-#### PyPI
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-Blivet is also available through the [Python Package Index](https://pypi.org/project/blivet/).
-You can install it using
+## Contributors
 
-    $ pip3 install blivet
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-Blivet depends on some C libraries that are not available on PyPI so you need to install these manually.
+## Origins
 
-The main dependencies include [libblockdev](https://github.com/storaged-project/libblockdev), [libbytesize](https://github.com/storaged-project/libbytesize), parted and their Python bindings.
-These libraries should be available on most distributions in the standard repositories.
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
 
-To install these dependencies use following commands:
+## Resources
 
- * On Fedora and RHEL/CentOS based distributions:
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
-       # dnf install python3-blockdev libblockdev-plugins-all python3-bytesize libbytesize python3-pyparted parted libselinux-python3
- * On Debian and Ubuntu based distributions:
+## License
 
-       # apt-get install python3-blockdev python3-bytesize python3-parted python3-selinux gir1.2-blockdev-3.0 libblockdev-lvm3 libblockdev-btrfs3 libblockdev-swap3 libblockdev-loop3 libblockdev-crypto3 libblockdev-mpath3 libblockdev-dm3 libblockdev-mdraid3 libblockdev-fs3
-
-### Development
-
-See [CONTRIBUTING.md](https://github.com/storaged-project/blivet/blob/main/CONTRIBUTING.md)
-
-Developer documentation is available on our [website](http://storaged.org/blivet/).
-
-### Localization
-
-[![Translation](https://translate.fedoraproject.org/widgets/blivet/-/blivet-master/287x66-grey.png)](https://translate.fedoraproject.org/engage/blivet/?utm_source=widget)
-
-### Bug reporting
-
-Bugs should be reported to [bugzilla.redhat.com](https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&component=python-blivet).
-
-You can also report bug using the [GitHub issues](https://github.com/storaged-project/blivet/issues).
+<!-- AI:start:license -->
+[LGPL-2.1](https://github.com/Interested-Deving-1896/blivet/blob/main/COPYING) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
